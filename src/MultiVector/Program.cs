@@ -25,6 +25,10 @@ if (indexSongs) await songs.ClearCollection();
 if (indexQuestions) await questionCollection.ClearCollection();
 if (indexSummaries) await summaryCollection.ClearCollection();
 
+/*
+ * Leider kann ich hier keine Songs anbieten wegen Kopierschutz. Du musst sie dir selber herunterladen.
+ * Einfach im Projektordner unter dem richtigen (oder anderem) Namen speichern.
+ */
 string[] fileNames =
 [
     "anti_hero",
