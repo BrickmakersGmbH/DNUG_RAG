@@ -7,9 +7,9 @@ using MultiVector.HypotheticalQuestions;
 using MultiVector.SongData;
 using MultiVector.Summaries;
 
-const bool indexSongs = false;
-const bool indexQuestions = false;
-const bool indexSummaries = false;
+const bool indexSongs = true;
+const bool indexQuestions = true;
+const bool indexSummaries = true;
 
 var llm = OpenAiModelHelper.SetupLLM(false);
 var embeddingModel = OpenAiModelHelper.SetupEmbedding();
@@ -32,10 +32,10 @@ if (indexSummaries) await summaryCollection.ClearCollection();
 string[] fileNames =
 [
     "anti_hero",
-    "bejewled",
-    "lavender_haze",
-    "maroon",
-    "snow_on_the_beach"
+    // "bejewled",
+    // "lavender_haze",
+    // "maroon",
+    // "snow_on_the_beach"
 ];
 var pathToFolder =
     Directory.GetParent(Environment.CurrentDirectory)!.Parent!.Parent!.FullName
