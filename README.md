@@ -11,6 +11,8 @@ Slides befinden sich im /docs Ordner und können [here](https://brickmakersgmbh.
 
 ## Code
 
+OPENAI API Key sollte als Pfad Variable "OPENAI_API_KEY" gesetzt sein.
+
 Code ist im /code Ordner. Die meisten Projekte sind in .NET und können mit den gängigen Tools geöffnet/gestartet werden.
 
 Ein Projekt ist in Python und kann mit jupyter notebooks geöffnet werden.
