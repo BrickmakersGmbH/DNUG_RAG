@@ -7,7 +7,7 @@ Nach einer kleinen Einleitung zu RAG, werde ich in diesem Vortrag einige Strateg
 
 ## Slides
 
-Slides befinden sich im /docs Ordner und können [here](https://brickmakersgmbh.github.io/DNUG_RAG) angesehen werden.
+Slides befinden sich im /docs Ordner und können [here](https://github.com/BrickmakersGmbH/dotnetMeetupKoblenz_RAG) angesehen werden.
 
 ## Code
 
